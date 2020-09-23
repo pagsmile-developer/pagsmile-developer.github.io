@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>SDK iOS | Developers</title>
+    <meta name="description" content="Pagsmile Docs for Developers">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.b4b7b21d.css" as="style"><link rel="preload" href="/assets/js/app.486e1c7a.js" as="script"><link rel="preload" href="/assets/js/2.97fc30e0.js" as="script"><link rel="preload" href="/assets/js/28.aec085bb.js" as="script"><link rel="prefetch" href="/assets/js/10.7bd440c1.js"><link rel="prefetch" href="/assets/js/11.d2d51e5f.js"><link rel="prefetch" href="/assets/js/12.45645a04.js"><link rel="prefetch" href="/assets/js/13.184d6fa5.js"><link rel="prefetch" href="/assets/js/14.72524efe.js"><link rel="prefetch" href="/assets/js/15.55ffdf62.js"><link rel="prefetch" href="/assets/js/16.66ce3955.js"><link rel="prefetch" href="/assets/js/17.28f6409b.js"><link rel="prefetch" href="/assets/js/18.4ab6de2f.js"><link rel="prefetch" href="/assets/js/19.f4cf38df.js"><link rel="prefetch" href="/assets/js/20.403f0167.js"><link rel="prefetch" href="/assets/js/21.60b6dc18.js"><link rel="prefetch" href="/assets/js/22.39f09e1c.js"><link rel="prefetch" href="/assets/js/23.f1b51a01.js"><link rel="prefetch" href="/assets/js/24.d638a0ca.js"><link rel="prefetch" href="/assets/js/25.65ea092e.js"><link rel="prefetch" href="/assets/js/26.dfa637da.js"><link rel="prefetch" href="/assets/js/27.6d29d66b.js"><link rel="prefetch" href="/assets/js/29.e9d44ab0.js"><link rel="prefetch" href="/assets/js/3.b11ffb8d.js"><link rel="prefetch" href="/assets/js/30.0e27fea2.js"><link rel="prefetch" href="/assets/js/4.e84d0b76.js"><link rel="prefetch" href="/assets/js/5.aec24410.js"><link rel="prefetch" href="/assets/js/6.fd1cc7df.js"><link rel="prefetch" href="/assets/js/7.c036a821.js"><link rel="prefetch" href="/assets/js/8.a4b07d03.js"><link rel="prefetch" href="/assets/js/9.ee3ee66e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b4b7b21d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/en/" class="home-link router-link-active"><img src="/pagsmile-logo-long.png" alt="Developers" class="logo"> <span class="site-name can-hide">Developers</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/en/reference/" class="nav-link router-link-active">API Reference</a></div><div class="nav-item"><a href="/en/changelog.html" class="nav-link">Changelog</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link">Home</a></li><li class="dropdown-item"><!----> <a href="/en/reference/ios.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/cn/reference/ios.html" class="nav-link">简体中文</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/en/reference/" class="nav-link router-link-active">API Reference</a></div><div class="nav-item"><a href="/en/changelog.html" class="nav-link">Changelog</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/" class="nav-link">Home</a></li><li class="dropdown-item"><!----> <a href="/en/reference/ios.html" class="nav-link router-link-exact-active router-link-active">English</a></li><li class="dropdown-item"><!----> <a href="/cn/reference/ios.html" class="nav-link">简体中文</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span></span> <!----></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Payments</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Notifications</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>SDKs</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/en/reference/sdk-overview.html" class="sidebar-link">Overview</a></li><li><a href="/en/reference/android.html" class="sidebar-link">SDK Android</a></li><li><a href="/en/reference/ios.html" class="active sidebar-link">SDK iOS</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="sdk-ios"><a href="#sdk-ios" class="header-anchor">#</a> SDK iOS</h1> <h3 id="_1-introduce-integration-files"><a href="#_1-introduce-integration-files" class="header-anchor">#</a> 1. Introduce integration files</h3> <p>Copy PagSmile.framework file, index.ios.bundle file, assets file and module directory into the project, import the project through Add Files.., pay attention to select Create folder references when importing assets and index.ios.bundle.</p> <h3 id="_2-load-third-party-libraries"><a href="#_2-load-third-party-libraries" class="header-anchor">#</a> 2. Load third-party libraries</h3> <p>Load the library in the pods directory into the project. If you use a pod script, you need to copy the libraries directory to the project first. The pod script is as follows:</p> <div class="language- extra-class"><pre class="language-text"><code>  pod 'FBLazyVector', :path =&gt; &quot;libraries/react-native/Libraries/FBLazyVector&quot;
+  pod 'FBReactNativeSpec', :path =&gt; &quot;libraries/react-native/Libraries/FBReactNativeSpec&quot;
+  pod 'RCTRequired', :path =&gt; &quot;libraries/react-native/Libraries/RCTRequired&quot;
+  pod 'RCTTypeSafety', :path =&gt; &quot;libraries/react-native/Libraries/TypeSafety&quot;
+  pod 'React', :path =&gt; 'libraries/react-native/'
+  pod 'React-Core', :path =&gt; 'libraries/react-native/'
+  pod 'React-CoreModules', :path =&gt; 'libraries/react-native/React/CoreModules'
+  pod 'React-Core/DevSupport', :path =&gt; 'libraries/react-native/'
+  pod 'React-RCTActionSheet', :path =&gt; 'libraries/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path =&gt; 'libraries/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path =&gt; 'libraries/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path =&gt; 'libraries/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path =&gt; 'libraries/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path =&gt; 'libraries/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path =&gt; 'libraries/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path =&gt; 'libraries/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path =&gt; 'libraries/react-native/Libraries/Vibration'
+  pod 'React-Core/RCTWebSocket', :path =&gt; 'libraries/react-native/'
+
+  pod 'React-cxxreact', :path =&gt; 'libraries/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path =&gt; 'libraries/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path =&gt; 'libraries/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path =&gt; 'libraries/react-native/ReactCommon/jsinspector'
+  pod 'ReactCommon/jscallinvoker', :path =&gt; &quot;libraries/react-native/ReactCommon&quot;
+  pod 'ReactCommon/turbomodule/core', :path =&gt; &quot;libraries/react-native/ReactCommon&quot;
+  pod 'Yoga', :path =&gt; 'libraries/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec =&gt; 'libraries/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec =&gt; 'libraries/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec =&gt; 'libraries/react-native/third-party-podspecs/Folly.podspec'
+
+  pod 'react-native-pdf', :podspec =&gt; 'libraries/react-native-pdf/react-native-pdf.podspec'
+  pod 'RNVectorIcons', :podspec =&gt; 'libraries/react-native-vector-icons/RNVectorIcons.podspec'
+  pod 'rn-fetch-blob', :podspec =&gt; 'libraries/rn-fetch-blob/rn-fetch-blob.podspec'
+  pod 'native-base', :path =&gt; 'libraries/native-base/'
+  pod 'RNI18n', :path =&gt; 'libraries/react-native-i18n/'
+
+  pod 'FBSDKCoreKit','~&gt; 6.0'
+  pod 'FBSDKShareKit','~&gt; 6.0'
+  pod 'AFNetworking', '~&gt; 4.0'
+  pod 'LiveChat','~&gt;2.0.11'
+</code></pre></div><h3 id="_3-add-configuration-to-the-info-plist-file"><a href="#_3-add-configuration-to-the-info-plist-file" class="header-anchor">#</a> 3. Add configuration to the info.plist file</h3> <div class="language- extra-class"><pre class="language-text"><code>&lt;key&gt;UIAppFonts&lt;/key&gt;
+&lt;array&gt;
+  &lt;string&gt;Roboto_medium.ttf&lt;/string&gt;
+  &lt;string&gt;Roboto.ttf&lt;/string&gt;
+  &lt;string&gt;rubicon-icon-font.ttf&lt;/string&gt;
+  &lt;string&gt;Ionicons.ttf&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;CFBundleURLTypes&lt;/key&gt;
+&lt;array&gt;
+  &lt;dict&gt;
+    &lt;key&gt;CFBundleURLSchemes&lt;/key&gt;
+    &lt;array&gt;
+      &lt;string&gt;fb572203926949729&lt;/string&gt;
+    &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/array&gt;
+&lt;key&gt;CFBundleVersion&lt;/key&gt;
+&lt;string&gt;1&lt;/string&gt;
+&lt;key&gt;FacebookAdvertiserIDCollectionEnabled&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;FacebookAppID&lt;/key&gt;
+&lt;string&gt;572203926949729&lt;/string&gt;
+&lt;key&gt;FacebookAutoInitEnabled&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;FacebookAutoLogAppEventsEnabled&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;FacebookDisplayName&lt;/key&gt;
+&lt;string&gt;PagSmile&lt;/string&gt;
+&lt;key&gt;LSApplicationQueriesSchemes&lt;/key&gt;
+&lt;array&gt;
+  &lt;string&gt;fb-messenger-share-api&lt;/string&gt;
+  &lt;string&gt;whatsapp&lt;/string&gt;
+  &lt;string&gt;fbapi&lt;/string&gt;
+  &lt;string&gt;fbauth2&lt;/string&gt;
+  &lt;string&gt;fbshareextension&lt;/string&gt;
+&lt;/array&gt;
+</code></pre></div><h3 id="_4-add-in-appdelegate-m"><a href="#_4-add-in-appdelegate-m" class="header-anchor">#</a> 4. Add in AppDelegate.m</h3> <div class="language- extra-class"><pre class="language-text"><code>#import &lt;FBSDKCoreKit/FBSDKCoreKit.h&gt;
+@import LiveChat;
+
+@interface AppDelegate () &lt;LiveChatDelegate&gt;
+...
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+
+  [[FBSDKApplicationDelegate sharedInstance] application:application
+                           didFinishLaunchingWithOptions:launchOptions];
+
+  LiveChat.delegate = self;
+
+  return YES;
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+            options:(NSDictionary&lt;UIApplicationOpenURLOptionsKey,id&gt; *)options {
+
+  BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                openURL:url
+                                                      sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                                             annotation:options[UIApplicationOpenURLOptionsAnnotationKey]
+                  ];
+  // Add any custom logic here.
+  return handled;
+}
+
+#pragma mark - LiveChatDelegate
+
+- (void)receivedWithMessage:(LiveChatMessage *)message {
+    if (!LiveChat.isChatPresented) {
+        // Notifying user
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@&quot;Support&quot; message:message.text preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *chatAction = [UIAlertAction actionWithTitle:@&quot;Go to Chat&quot; style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            // Presenting chat if not presented:
+            if (!LiveChat.isChatPresented) {
+                [LiveChat presentChatWithAnimated:YES completion:nil];
+            }
+        }];
+        [alert addAction:chatAction];
+
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@&quot;Cancel&quot; style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:cancelAction];
+
+        [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+    }
+}
+
+- (void)handleWithURL:(NSURL *)URL {
+    [[UIApplication sharedApplication] openURL:URL];
+}
+</code></pre></div><h3 id="_5-initialization-sdk"><a href="#_5-initialization-sdk" class="header-anchor">#</a> 5. Initialization SDK</h3> <p>Call it after getting the prepay_id returned by pagsmile background</p> <div class="language- extra-class"><pre class="language-text"><code>[PagSmile init:app_id withApiKey:api_key withPattern:TEST];
+</code></pre></div><h3 id="_6-pull-up-the-order-page"><a href="#_6-pull-up-the-order-page" class="header-anchor">#</a> 6. Pull Up the Order Page</h3> <p>Call it after getting the prepay_id returned by pagsmile background</p> <div class="language- extra-class"><pre class="language-text"><code>[PagSmile order:prepayId ];
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/en/reference/android.html" class="prev">SDK Android</a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.486e1c7a.js" defer></script><script src="/assets/js/2.97fc30e0.js" defer></script><script src="/assets/js/28.aec085bb.js" defer></script>
+  </body>
+</html>
